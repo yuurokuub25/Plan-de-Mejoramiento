@@ -1,0 +1,27 @@
+PROCESO areayperimetro 
+	ESCRIBIR "DIGITE LA LONGITUD DEL LADO HORIZONTAL DEL RECTANGULO"
+	LEER LADOHORIZONTAL
+	ESCRIBIR "."
+	ESCRIBIR "DIGITE LA LONGITUD DEL LADO VERTICAL DEL RECTANGULO"
+	LEER LADOVERTICAL
+	ESCRIBIR "."
+	Perimetro= (2*LADOHORIZONTAL) + (2*LADOVERTICAL)
+	Area= (LADOHORIZONTAL * LADOVERTICAL)
+	//Menú de opciones para ejecutar la operacion indicada por el usuario
+	 ESCRIBIR "Seleccione la operacion que desea realizar"
+	 ESCRIBIR "Perímetro: 1"
+	 ESCRIBIR "Area: 2"
+	 ESCRIBIR "Salir: 4"
+	 LEER operacion
+	 SI operacion= 1 ENTONCES 
+		 ESCRIBIR "Perimetro es igual a ;",Perimetro
+	 FinSi
+	 SI operacion= 2 ENTONCES 
+		 ESCRIBIR "Area es igual a ;",Area
+	 FinSi
+	 
+	 SI operación= 4 entonces 
+		 ESCRIBIR "Operación cancelada" 
+	 FinSi
+	 
+	FinProceso
