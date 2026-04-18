@@ -1,0 +1,9 @@
+ALGORITMO Conversion_Medidas
+    Definir metros, cm, mm Como Real
+    Escribir "Ingrese la medida en metros:"
+    Leer metros
+    cm <- metros * 100
+    mm <- metros * 1000
+    Escribir "La medida en centímetros es: ", cm
+    Escribir "La medida en milímetros es: ", mm
+FINALGORITMO
