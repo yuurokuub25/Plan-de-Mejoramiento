@@ -1,0 +1,8 @@
+ALGORITMO Finanzas_Personales
+ Definir ahorro, bono, total Como Real
+ Escribir "Ingrese la cantidad a ahorrar:"
+ Leer ahorro 
+ bono <- ahorro * 0.15
+ total <- ahorro + bono
+ Escribir "El total ahorrado con bono incluido es: ", total
+FINALGORITMO
