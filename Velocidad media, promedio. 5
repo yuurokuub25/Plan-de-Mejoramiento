@@ -1,0 +1,9 @@
+ALGORITMO Velocidad_Media
+    Definir distancia, tiempo, velocidad Como Real
+    Escribir "Ingrese la distancia recorrida (metros):"
+    Leer distancia
+    Escribir "Ingrese el tiempo empleado (segundos):"
+    Leer tiempo
+    velocidad= distancia / tiempo
+    Escribir "La velocidad media es: ", velocidad, " m/s"
+FINALGORITMO
