@@ -1,0 +1,9 @@
+ALGORITMO Ley_De_Ohm
+    Definir resistencia, corriente, voltaje Como Real
+    Escribir "Ingrese el valor de la Resistencia (R):"
+    Leer resistencia
+    Escribir "Ingrese el valor de la Corriente (I):"
+    Leer corriente
+    voltaje= corriente * resistencia
+    Escribir "El voltaje calculado es: ", voltaje
+FINALGORITMO
