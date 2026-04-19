@@ -1,0 +1,7 @@
+ALGORITMO Circunferencia_Circulo
+    Definir radio, circunferencia Como Real
+    Escribir "Ingrese el radio del círculo:"
+    Leer radio
+    circunferencia <- 2 * 3.1416 * radio
+    Escribir "La circunferencia del círculo es: ", circunferencia
+FINALGORITMO
