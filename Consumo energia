@@ -1,0 +1,9 @@
+ALGORITMO Consumo_Energia
+    Definir potencia, horas, consumo Como Real
+    Escribir "Ingrese la potencia del motor (vatios):"
+    Leer potencia
+    Escribir "Ingrese las horas de uso:"
+    Leer horas
+    consumo <- potencia * horas
+    Escribir "El consumo total es: ", consumo, " Wh"
+FINALGORITMO
