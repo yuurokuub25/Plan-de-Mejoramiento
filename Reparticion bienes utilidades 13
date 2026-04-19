@@ -1,0 +1,7 @@
+ALGORITMO Reparticion_Utilidades
+    Definir ganancia_total, parte_socio Como Real
+     Escribir "Ingrese la ganancia total:"
+     Leer ganancia_total
+     parte_socio <- ganancia_total / 3
+     Escribir "A cada socio le corresponde: ", parte_socio
+FINALGORITMO
