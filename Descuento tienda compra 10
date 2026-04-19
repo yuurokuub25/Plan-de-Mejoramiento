@@ -1,0 +1,7 @@
+ALGORITMO Descuento_Tienda
+    Definir valor_compra, total Como Real
+    Escribir "Ingrese el valor de la compra:"
+    Leer valor_compra
+    total <- valor_compra - 10000
+    Escribir "El total final a pagar es: ", total
+FINALGORITMO
