@@ -7,4 +7,4 @@ ALGORITMO Conversion_Moneda
     Leer trm
     pesos <- dolares * trm
     Escribir "El valor en pesos colombianos es: ", pesos
-FIN ALGORITMO
+FINALGORITMO
