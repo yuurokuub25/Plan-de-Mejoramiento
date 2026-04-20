@@ -1,0 +1,7 @@
+ALGORITMO Validacion_Inventario
+    Definir cantidad Como Entero
+    Escribir "Ingrese la cantidad de piezas disponibles en bodega:"
+    Leer cantidad
+      SI cantidad < 5 ENTONCES Escribir "Solicitar pedido urgente al proveedor"
+      FIN SI
+FIN ALGORITMO
