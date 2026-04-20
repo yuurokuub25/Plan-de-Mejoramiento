@@ -1,0 +1,8 @@
+ALGORITMO Alerta_Temperatura
+    Definir temperatura Como Real
+    Escribir "Ingrese la temperatura de la caldera:"
+    Leer temperatura
+    SI temperatura > 100 ENTONCES
+        Escribir "ALERTA: Abrir válvula de escape"
+    FIN SI
+FINALGORITMO
