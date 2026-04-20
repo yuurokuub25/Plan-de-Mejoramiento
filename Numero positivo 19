@@ -1,0 +1,7 @@
+ALGORITMO Numero_Positivo
+    Definir numero Como Real
+    Escribir "Ingrese un número:"
+    Leer numero
+    SI numero > 0 ENTONCES Escribir "El número es positivo"
+    FIN SI
+FINALGORITMO
